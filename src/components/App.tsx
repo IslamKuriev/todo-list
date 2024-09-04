@@ -68,6 +68,7 @@ function App() {
       <main>
        <Form inputValue={inputValue} setInputValue={setInputValue} handleAdd={handleAdd}/>
         <Select filter={filter} handleSelect={handleSelect}/>
+        <div className="lengthTodo"><span>Всего: {filteredTodos.length}</span></div>
         <div className="todos">
           {filteredTodos.map((todo) => (
             <Todo

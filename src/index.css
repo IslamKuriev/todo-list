@@ -1,28 +1,28 @@
 body {
-    font-family: "Poppins", sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #555555;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #555555;
 }
 .app {
-    padding-bottom: 30px;
-    background: #FAFAFA;
-    margin-top: 3%;
-    width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 10px;
-    border-radius: 10px;
+  padding-bottom: 30px;
+  background: #fafafa;
+  margin-top: 3%;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  border-radius: 10px;
 }
 header {
-background:#00bfff;
-border-top-left-radius: 10px;
-border-top-right-radius: 10px;
-text-align: center;
+  background: #00bfff;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  text-align: center;
 }
 h1 {
-color: #FAFAFA;
-padding: 15px;
+  color: #fafafa;
+  padding: 15px;
 }
 .form {
   /* margin-left: 50px; */
@@ -44,7 +44,7 @@ padding: 15px;
 .btn-add {
   border-radius: 10px;
   color: white;
-  background: #0B63F6;
+  background: #0b63f6;
   border: none;
   padding: 11px 20px;
   box-shadow: 0 5px 15px 0 rgba(11, 99, 246, 1);
@@ -54,7 +54,7 @@ padding: 15px;
 }
 
 .btn-add:hover {
-  transform: translate(0,-3px);
+  transform: translate(0, -3px);
   box-shadow: 0 20px 40px 0 rgba(11, 99, 246, 1);
 }
 .category {
@@ -85,6 +85,7 @@ padding: 15px;
   min-height: 260px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 44px;
   padding: 20px;
 }
 .todo {
@@ -117,15 +118,15 @@ padding: 15px;
   margin-top: -4px;
 }
 .info {
-display: flex;
-gap: 15px;
+  display: flex;
+  gap: 15px;
 }
 .buttons {
   display: flex;
   gap: 9px;
 }
-.buttons img{
-width: 21px;
+.buttons img {
+  width: 21px;
 }
 .btn-todo {
   border: none;
@@ -134,7 +135,7 @@ width: 21px;
   transition: 0.5s;
 }
 .btn-todo:hover {
- background:#d8d4d4
+  background: #d8d4d4;
 }
 input[type="checkbox"] {
   appearance: none;
@@ -173,7 +174,6 @@ input[type="checkbox"]:checked::before {
   background-color: #fff;
   font-size: 14px;
   cursor: pointer;
-
 }
 .option {
   font-size: 15px;
@@ -184,10 +184,10 @@ input[type="checkbox"]:checked::before {
   border-bottom-right-radius: 0px;
 }
 .btn-edit {
-border: none;
-padding: 5px 10px;
-background: #e3e0e0;
-transition: 0.5s;
+  border: none;
+  padding: 5px 10px;
+  background: #e3e0e0;
+  transition: 0.5s;
 }
 .btn-edit-dis {
   border: none;
@@ -197,5 +197,17 @@ transition: 0.5s;
   cursor: no-drop;
 }
 .btn-edit:hover {
- background: #c0c0c0;
-  }
+  background: #c0c0c0;
+}
+.lengthTodo {
+  background: #03a7b6;
+  color: #fff;
+  /* width: 100px; */
+  /* height: 30px; */
+  position: absolute;
+  margin-left: 140px;
+  text-align: center;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding: 2px 22px;
+}
